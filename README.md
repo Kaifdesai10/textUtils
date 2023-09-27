@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# TextUtils
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TextUtils is a React-based web application that provides various text manipulation and analysis tools. With TextUtils, you can easily format, analyze, and preview text input.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Text Manipulation:**
+  - Capitalize Text: Convert text to uppercase.
+  - Lowercase Text: Convert text to lowercase.
+  - Remove Extra Spaces: Eliminate extra spaces in the text.
+  - Copy Text: Quickly copy the modified text to your clipboard.
+  - Clear Text: Clear the text input field.
 
-### `npm start`
+- **Text Analysis:**
+  - Word Count: See the number of words in your text.
+  - Character Count: Calculate the total character count.
+  - Reading Time: Estimate the reading time of your text.
+  
+- **Preview Text:**
+  - View a live preview of your formatted text.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **About:**
+  - Learn more about the TextUtils project.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Theme Switcher:**
+  - Change between light and dark themes for a comfortable reading experience.
 
-### `npm test`
+## Success Alerts
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Uppercase Conversion:** When you use the "Capitalize Text" feature to convert text to uppercase, a success alert will be displayed to confirm that the operation was successful. You will see a message like "Text successfully converted to uppercase."
 
-### `npm run build`
+- **Lowercase Conversion:** Similarly, when you use the "Lowercase Text" feature to convert text to lowercase, a success alert will be displayed to confirm that the operation was successful. You will see a message like "Text successfully converted to lowercase."
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Other Actions:** Success alerts are used for other actions as well, such as clearing the text field or removing extra spaces.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Light Theme
 
-### `npm run eject`
+![TextUtils Screenshot - Light Theme](screenshots/s1.png)
+*Screenshot of TextUtils with Light Theme.*
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Dark Theme
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![TextUtils Screenshot - Dark Theme](screenshots/s2.png)
+*Screenshot of TextUtils with Dark Theme.*
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Built With
 
-## Learn More
+- React.js: A JavaScript library for building user interfaces.
+- Functional Components and React Hooks.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone this repository.
+2. Navigate to the project directory.
+3. Install dependencies with `npm install`.
+4. Start the development server with `npm start`.
 
-### Code Splitting
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Enter or paste your text in the input field.
+2. Use the provided buttons to manipulate and analyze your text.
+3. Preview the modified text.
+4. Enjoy the convenience of text formatting and analysis!
 
-### Analyzing the Bundle Size
+## About
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project is an example of a simple React application created for educational and demonstration purposes. Feel free to use and modify it to suit your needs.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
